@@ -64,7 +64,8 @@
 	   (let ((buf (current-buffer)))
 	     (bookmark-default-handler
 	      `("" (buffer . ,buf) . ,(bookmark-get-bookmark-record bookmark))))
-	   (setq note-attrs nil)))))))
+	   (setq note-attrs nil)))
+       (setq note-attrs (cdr note-attrs))))))
 
 (defun bm-evernote-prepare ()
   (interactive)
