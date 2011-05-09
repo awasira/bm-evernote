@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 2011  ARISAWA Akihiro
 
-;; Author: ARISAWA Akihiro <awasita@gmail.com>
+;; Author: ARISAWA Akihiro <awasira at gmail.com>
 ;; Keywords: evernote, bookmark
 
 ;; This program is free software; you can redistribute it and/or modify
