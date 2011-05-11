@@ -41,8 +41,7 @@
   `(,(buffer-name)
     ,@(bookmark-make-record-default 'no-file)
     ;; if bookmark-bmenu-toggle-filenames is t and a bookmark record doesn't
-    ;; have filename field, , Emacs23.2 raises an error.
-    ;; Here is the workaround suggested by ARISAWA Akihiro.
+    ;; have filename field, Emacs23.2 raises an error.
     (filename . ,(buffer-name))
     (handler . bm-evernote-bookmark-jump)))
 
