@@ -5,7 +5,9 @@ From version 23.1 bookmark.el of GNU emacs supports the
 mode own bookmark mechanism. This is Emacs Evernote mode side adapter to
 the mechanism.
 
-This code has been merged to Emacs Evernote mode.
+This code has been merged to Emacs Evernote mode Version 0.32.
+Please use latest Emacs Evernote mode instead of this code.
+
 cf. http://code.google.com/p/emacs-evernote-mode/source/detail?r=146
 
 Require
